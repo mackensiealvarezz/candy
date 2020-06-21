@@ -1,11 +1,12 @@
 {
-    "functions": {
-        "api/index.php": {
-            "runtime": "now-php@0.0.10"
-        }
-    },
+    "version": 2,
+    "public": true,
+    "builds": [{
+        "src": "public/index.php",
+        "use": "now-bref@experimental"
+    }],
     "routes": [{
         "src": "/(.*)",
-        "dest": "/api/index.php"
+        "dest": "/public/index.php"
     }]
 }
