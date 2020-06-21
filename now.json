@@ -3,9 +3,5 @@
         "api/index.php": {
             "runtime": "now-php@0.0.10"
         }
-    },
-    "routes": [{
-        "src": "/(.*)",
-        "dest": "/api/index.php"
-    }]
+    }
 }
