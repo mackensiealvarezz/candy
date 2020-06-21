@@ -1,7 +1,6 @@
 {
     "version": 2,
     "public": true,
-    "regions": ["all"],
     "builds": [{
         "src": "public/index.php",
         "use": "now-bref"
