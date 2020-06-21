@@ -3,7 +3,7 @@
     "public": true,
     "builds": [{
         "src": "public/index.php",
-        "use": "now-bref@experimental"
+        "use": "now-bref"
     }],
     "routes": [{
         "src": "/(.*)",
