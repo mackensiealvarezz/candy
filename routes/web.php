@@ -19,6 +19,5 @@ Route::get('/', function () {
 
 
 Route::get('test', function () {
-    echo "ted";
     return "testing ruotes";
 });
